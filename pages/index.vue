@@ -5,17 +5,12 @@
       <v-container>
         <v-row align="center">
           <v-col cols="12" md="6">
-<<<<<<< HEAD
+
             <h1
               class="title text-md-left text-center text-h4 text-md-h3 font-weight-bold"
             >
               Cook anything with the experts
             </h1>
-=======
-            <p class="title text-md-left text-center text-h5 text-sm-h4 font-weight-bold py-2 my-3" style="overflow: hidden">
-              Cook anything with the experts
-            </p>
->>>>>>> 5698d2277905791d28057aafb76d5f1eddfa93a6
             <SlideWord
               customClass="mt-5 mb-10 text-md-left text-center"
               text="We belive that food is more than just substance...it's a way to connect,create,and celebrate.We hope you will enjoy with us ..."
@@ -174,11 +169,7 @@
       <ClientOnly>
         <swiper
           :modules="[Autoplay, Navigation, Pagination]"
-<<<<<<< HEAD
-          class="d-flex pb-16"
-=======
           class="d-flex pb-16" 
->>>>>>> 5698d2277905791d28057aafb76d5f1eddfa93a6
           :breakpoints="{
             640: { slidesPerView: 2, spaceBetween: 20 },
             1024: { slidesPerView: 3, spaceBetween: 30 },
@@ -277,12 +268,8 @@
 
     <!-- ---------------news-letter------------------------------ -->
     <slide-section
-<<<<<<< HEAD
+ 
       custom-class="news-letter mt-16 mb-10 bg-primary position-relative d-block w-75  mx-auto"
-=======
-      custom-class="news-letter mt-16 mx-3 mb-10 bg-primary position-relative w-75 ml-16"
->>>>>>> 5698d2277905791d28057aafb76d5f1eddfa93a6
-    >
       <v-img
         :src="soup"
         width="300"
@@ -350,13 +337,6 @@
   </div>
 </template>
 <style scoped>
-<<<<<<< HEAD
-.landing .title {
-  font-size: 50px;
-  line-height: 1;
-}
-=======
->>>>>>> 5698d2277905791d28057aafb76d5f1eddfa93a6
 .landing .card-landing {
   position: absolute;
   left: 0;
@@ -389,14 +369,12 @@
 .news-letter {
   border-radius: 25px 190px 20px 25px;
 }
-<<<<<<< HEAD
+
 @media (max-width: 768px) {
   .news-letter {
     border-radius: 25px 25px 20px 25px;
   }
 }
-=======
->>>>>>> 5698d2277905791d28057aafb76d5f1eddfa93a6
 .clickable-icon {
   cursor: pointer;
   transition: opacity 0.2s ease;
