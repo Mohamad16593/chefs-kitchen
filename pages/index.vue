@@ -269,7 +269,7 @@
     <!-- ---------------news-letter------------------------------ -->
     <slide-section
  
-      custom-class="news-letter mt-16 mb-10 bg-primary position-relative d-block w-75  mx-auto"
+      custom-class="news-letter mt-16 mb-10 bg-primary position-relative d-block w-75  mx-auto">
       <v-img
         :src="soup"
         width="300"
